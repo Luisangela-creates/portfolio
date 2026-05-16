@@ -2,157 +2,157 @@ export const profile = {
   name: "Luisangela Marcano",
   title: "Product Manager",
   tagline: "Turning user insights, storytelling, and cross-functional alignment into products and experiences that make a real difference.",
-  email: "luisangela@example.com",
+  email: "hi@luisangela.com",
   linkedin: "https://linkedin.com/in/luisangela",
   location: "Your City, State", // TODO: update with your location
-  bio: "Creative Digital Strategist and Learning Experience Designer transitioning into Product Management. I bring a unique blend of storytelling, user-centered design, and educational design thinking to product work — helping teams build meaningful, impactful experiences that teach, inspire, and connect.",
-  yearsExperience: 5,
-  productsLaunched: 10, // TODO: update with your real numbers
-  usersImpacted: "50K+", // TODO: update with your real numbers
+  bio: "Creative Digital Strategist and Learning Experience Designer bringing a user-first lens to Product Management. My background spans content design, digital media, educational product development, and AI tools — I build things that teach, inspire, and connect people.",
+  yearsExperience: 5, // TODO: update
+  productsLaunched: 8, // TODO: update
+  usersImpacted: "25K+", // TODO: update
 };
 
 export const experience = [
   {
-    company: "Acme Corp",
+    company: "thesweet.ai",
     logo: null,
-    role: "Senior Product Manager",
-    period: "2022 – Present",
-    location: "San Francisco, CA",
-    description:
-      "Led a cross-functional team of 15 to ship a new self-serve onboarding flow that reduced time-to-value from 14 days to 3 days and increased 30-day retention by 22%.",
-    highlights: [
-      "Owned the 0→1 launch of Acme's enterprise tier, generating $1.2M ARR in first year",
-      "Ran 40+ customer discovery interviews to define a 3-year product vision",
-      "Partnered with design and data to build a north-star metric framework adopted org-wide",
-    ],
-    tags: ["B2B SaaS", "Enterprise", "Growth"],
-  },
-  {
-    company: "Startup Studio",
-    logo: null,
-    role: "Product Manager",
-    period: "2020 – 2022",
+    role: "Product Contributor / Digital Strategist",
+    period: "2024 – Present",
     location: "Remote",
     description:
-      "Drove roadmap prioritization and feature delivery for a two-sided marketplace with 500K+ monthly active users.",
+      "Contributed to AI-powered product initiatives at thesweet.ai, applying digital strategy and user research skills to shape product direction and user experience.",
     highlights: [
-      "Launched a real-time chat feature that lifted seller conversion by 18%",
-      "Reduced average bug-to-fix cycle from 12 days to 4 days by introducing weekly triage rituals",
-      "Established quarterly OKR process across three product squads",
+      "TODO: Add your specific role, projects, and outcomes from thesweet.ai",
+      "TODO: Add a key impact metric or milestone",
+      "TODO: Add a cross-functional collaboration highlight",
     ],
-    tags: ["Marketplace", "Consumer", "Mobile"],
+    tags: ["AI", "Product Strategy", "Digital Strategy"],
   },
   {
-    company: "Agency Inc",
+    company: "Pausa & Play",
     logo: null,
-    role: "Associate Product Manager",
-    period: "2019 – 2020",
-    location: "New York, NY",
+    role: "Creator & Host",
+    period: "2023 – Present",
+    location: "Remote",
     description:
-      "Supported delivery of digital transformation projects for Fortune 500 clients across fintech and healthcare verticals.",
+      "Conceived, launched, and grew a short-form podcast exploring how technology and business shape our everyday lives — from ideation through production and distribution.",
     highlights: [
-      "Coordinated sprint planning and backlog grooming for a team of 8 engineers",
-      "Wrote PRDs and acceptance criteria for 20+ features delivered on time",
-      "Shadowed and interviewed 30+ end users to inform UX decisions",
+      "Defined the show's editorial strategy, audience persona, and content roadmap",
+      "Managed end-to-end production: scripting, recording, editing, and publishing",
+      "Built and iterated on episode format based on listener feedback",
     ],
-    tags: ["Consulting", "Fintech", "Healthcare"],
+    tags: ["Content Strategy", "Product Thinking", "Storytelling"],
+  },
+  {
+    company: "Color, Learn & Explore",
+    logo: null,
+    role: "Creator & Educational Designer",
+    period: "2022 – Present",
+    location: "Remote",
+    description:
+      "Built and grew a YouTube channel combining visual creativity with educational content — designing each episode as a structured learning experience for curious audiences.",
+    highlights: [
+      "Designed curriculum-style content series using learning experience design principles",
+      "Scripted, filmed, and edited educational videos blending fun facts with creative activities",
+      "Iterated on content format and pacing based on viewer retention data",
+    ],
+    tags: ["Learning Design", "Content Creation", "YouTube"],
   },
 ];
 
 export const caseStudies = [
   {
-    slug: "onboarding-redesign",
-    title: "Onboarding Redesign: 14 Days → 3 Days to Value",
-    company: "Acme Corp",
+    slug: "pausa-and-play-podcast",
+    title: "Pausa & Play: Launching a Podcast from 0 to Audience",
+    company: "Pausa & Play",
     period: "2023",
     summary:
-      "How I led a cross-functional redesign of the new-user onboarding flow that cut time-to-value by 79% and lifted 30-day retention by 22 percentage points.",
-    tags: ["Retention", "Onboarding", "B2B"],
+      "How I defined the product vision, content strategy, and production process for a short-form podcast on tech and business — and built a loyal listener base from scratch.",
+    tags: ["0→1", "Content Strategy", "Storytelling"],
     impact: [
-      { metric: "Time-to-Value", before: "14 days", after: "3 days", delta: "-79%" },
-      { metric: "30-Day Retention", before: "41%", after: "63%", delta: "+22pp" },
-      { metric: "Support Tickets (Week 1)", before: "480/mo", after: "210/mo", delta: "-56%" },
-    ],
-    sections: [
-      {
-        heading: "The Problem",
-        body: "New users were churning before reaching the core 'aha moment' of the product. Exit surveys pointed to a confusing setup flow and unclear value proposition in the first session.",
-      },
-      {
-        heading: "Discovery",
-        body: "I ran 20 usability sessions, analyzed Mixpanel funnels, and mapped the full onboarding journey. The drop-off concentrated at two steps: workspace configuration and first-team invite.",
-      },
-      {
-        heading: "Solution",
-        body: "Collaborated with design to prototype a guided setup wizard with contextual tooltips and an optional 'quick start' path. Introduced a progress bar and immediate value hooks (sample data, templates).",
-      },
-      {
-        heading: "Results",
-        body: "Shipped in 6 weeks. 30-day retention jumped from 41% to 63%. Time-to-value dropped from 14 days to 3 days. The framework became a template for subsequent product launches.",
-      },
-    ],
-  },
-  {
-    slug: "enterprise-tier-launch",
-    title: "0→1: Launching the Enterprise Tier",
-    company: "Acme Corp",
-    period: "2022",
-    summary:
-      "Building and launching a net-new enterprise product from first customer conversations to $1.2M ARR in 12 months.",
-    tags: ["0→1", "Enterprise", "Revenue"],
-    impact: [
-      { metric: "ARR (Year 1)", before: "$0", after: "$1.2M", delta: "New stream" },
-      { metric: "Enterprise Customers", before: "0", after: "34", delta: "+34" },
-      { metric: "NPS (Enterprise)", before: "N/A", after: "62", delta: "Baseline" },
+      { metric: "Episodes Launched", before: "0", after: "TODO", delta: "New show" },
+      { metric: "Listener Growth", before: "0", after: "TODO", delta: "TODO" },
+      { metric: "Avg. Episode Length", before: "N/A", after: "TODO min", delta: "Optimized" },
     ],
     sections: [
       {
         heading: "The Opportunity",
-        body: "Sales was losing deals to enterprise-only competitors due to missing features: SSO, audit logs, and admin controls. A targeted enterprise SKU could unlock an adjacent buyer persona.",
+        body: "I saw a gap for short, accessible conversations about how technology and business decisions shape everyday life — content that was thoughtful but not overwhelming. Most shows were either too technical or too broad.",
       },
       {
-        heading: "Discovery & Validation",
-        body: "I interviewed 15 enterprise prospects, surveyed churned users, and partnered with Sales on 10 deal reviews. Distilled findings into a clear MLP (minimum loveable product) scope.",
+        heading: "Discovery",
+        body: "I surveyed my network and conducted informal interviews to understand what formats resonated and what topics felt most relevant. I used those insights to define the show's editorial pillars and target listener persona.",
       },
       {
-        heading: "Execution",
-        body: "Led a 3-engineer squad through 4 sprints to ship SSO, role-based permissions, audit logs, and a dedicated admin dashboard. Coordinated legal, marketing, and CS for launch.",
+        heading: "Building the Product",
+        body: "I designed the end-to-end production process: scripting frameworks, recording workflow, editing templates, and a publishing schedule. Each episode was treated as a product — scoped, built, and iterated on based on feedback.",
       },
       {
         heading: "Results",
-        body: "Closed 34 enterprise accounts in the first year, generating $1.2M ARR. The enterprise NPS of 62 outpaced the SMB segment. Roadmap now 40% driven by enterprise feedback.",
+        body: "TODO: Add your listener numbers, notable episodes, guest highlights, or platform metrics here.",
       },
     ],
   },
   {
-    slug: "marketplace-chat",
-    title: "Real-Time Chat: +18% Seller Conversion",
-    company: "Startup Studio",
-    period: "2021",
+    slug: "color-learn-explore",
+    title: "Color, Learn & Explore: Building an Educational YouTube Channel",
+    company: "Color, Learn & Explore",
+    period: "2022",
     summary:
-      "Shipping a real-time messaging feature to a two-sided marketplace that improved seller conversion and reduced buyer drop-off.",
-    tags: ["Marketplace", "Growth", "Feature Launch"],
+      "Designing and growing a YouTube channel that combines visual creativity with structured learning — treating each video as a micro-product built for a specific audience need.",
+    tags: ["Learning Design", "Content Product", "YouTube"],
     impact: [
-      { metric: "Seller Conversion", before: "23%", after: "41%", delta: "+18pp" },
-      { metric: "Avg. Response Time", before: "8 hrs", after: "12 min", delta: "-97%" },
-      { metric: "Buyer Drop-off (Pre-purchase)", before: "64%", after: "48%", delta: "-16pp" },
+      { metric: "Videos Published", before: "0", after: "TODO", delta: "New channel" },
+      { metric: "Subscribers", before: "0", after: "TODO", delta: "TODO" },
+      { metric: "Avg. View Retention", before: "N/A", after: "TODO%", delta: "Baseline" },
     ],
     sections: [
       {
         heading: "The Problem",
-        body: "Buyers were leaving the platform to contact sellers via email or WhatsApp, causing lost attribution and abandoned transactions.",
+        body: "Educational content for creative learners often sacrifices engagement for rigor — or entertainment for depth. I wanted to build a channel that did both: fun facts delivered through visual, hands-on activity.",
       },
       {
-        heading: "Discovery",
-        body: "Session recordings and exit surveys showed 60% of high-intent buyers wanted to ask product questions before purchasing. Sellers confirmed they were closing deals off-platform.",
+        heading: "Research & Design",
+        body: "I applied learning experience design principles to structure each episode: a hook, the core concept, a hands-on activity, and a takeaway. Topics were chosen based on audience curiosity signals and search data.",
       },
       {
-        heading: "Solution",
-        body: "Scoped a lightweight in-app messaging feature with push notifications, read receipts, and seller response-time badges. Designed to be shipped in a 4-week sprint.",
+        heading: "Production & Iteration",
+        body: "I scripted, filmed, and edited each video myself — iterating on pacing, thumbnail design, and title framing based on view-through rates and comments. Each video informed the next.",
       },
       {
         heading: "Results",
-        body: "Seller conversion lifted 18pp. Average response time dropped from 8 hours to 12 minutes. The feature became the #1 driver of 5-star buyer reviews.",
+        body: "TODO: Add your subscriber count, view counts, most popular episode, or audience feedback highlights here.",
+      },
+    ],
+  },
+  {
+    slug: "thesweet-ai-projects",
+    title: "thesweet.ai: Product Work in AI",
+    company: "thesweet.ai",
+    period: "2024",
+    summary:
+      "Applying digital strategy, user research, and product thinking to AI-powered initiatives at thesweet.ai — helping shape features, user experience, and go-to-market direction.",
+    tags: ["AI", "Product Strategy", "UX Research"],
+    impact: [
+      { metric: "TODO Metric", before: "TODO", after: "TODO", delta: "TODO" },
+      { metric: "TODO Metric", before: "TODO", after: "TODO", delta: "TODO" },
+      { metric: "TODO Metric", before: "TODO", after: "TODO", delta: "TODO" },
+    ],
+    sections: [
+      {
+        heading: "The Context",
+        body: "TODO: Describe the product or initiative at thesweet.ai you contributed to. What was the problem space? What was the team working on?",
+      },
+      {
+        heading: "My Role",
+        body: "TODO: Describe your specific contributions — research, strategy, feature definition, stakeholder alignment, etc.",
+      },
+      {
+        heading: "Approach",
+        body: "TODO: What frameworks, processes, or methods did you use? How did you collaborate with the team?",
+      },
+      {
+        heading: "Results",
+        body: "TODO: What was the outcome? Add metrics, qualitative wins, or lessons learned.",
       },
     ],
   },
@@ -161,40 +161,39 @@ export const caseStudies = [
 export const skills = [
   {
     category: "Product Strategy",
-    items: ["Product Vision & Roadmapping", "OKRs & Goal Setting", "Market & Competitive Research", "0→1 Product Development", "Prioritization Frameworks (RICE, ICE, MoSCoW)"],
+    items: ["Product Vision & Roadmapping", "0→1 Product Development", "Prioritization Frameworks", "Go-to-Market Planning", "OKRs & Goal Setting"],
   },
   {
     category: "Discovery & Research",
-    items: ["User Interviews", "Usability Testing", "Jobs-to-be-Done", "Survey Design", "Persona Development"],
+    items: ["User Interviews", "Audience Research", "Survey Design", "Persona Development", "Jobs-to-be-Done"],
   },
   {
-    category: "Delivery & Execution",
-    items: ["Agile / Scrum", "Sprint Planning & Backlog Grooming", "PRD Writing", "Cross-functional Leadership", "Stakeholder Management"],
+    category: "Content & Learning Design",
+    items: ["Instructional Design", "Curriculum Development", "Storytelling", "Editorial Strategy", "Video & Podcast Production"],
   },
   {
-    category: "Data & Analytics",
-    items: ["Mixpanel", "Amplitude", "SQL (intermediate)", "A/B Testing", "Funnel Analysis"],
+    category: "Digital Strategy",
+    items: ["Content Marketing", "Social Media Strategy", "YouTube & Podcast Growth", "SEO Basics", "Brand Positioning"],
   },
   {
-    category: "Design Collaboration",
-    items: ["Figma", "Design Sprints", "Wireframing", "Prototyping", "Accessibility (WCAG)"],
+    category: "AI & Emerging Tech",
+    items: ["AI Product Evaluation", "Prompt Design", "thesweet.ai Tools", "AI-assisted Content Creation"],
   },
   {
     category: "Tools",
-    items: ["Jira", "Linear", "Notion", "Confluence", "Miro", "Productboard"],
+    items: ["Notion", "Figma", "Canva", "Google Analytics", "Miro", "TODO: Add your tools"],
   },
 ];
 
 export const education = [
   {
-    institution: "University of California, Berkeley",
-    degree: "B.S. in Business Administration",
-    period: "2015 – 2019",
-    notes: "Concentration in Technology Management",
+    institution: "TODO: Your University",
+    degree: "TODO: Your Degree",
+    period: "TODO: Years",
+    notes: "TODO: Concentration or honors (optional)",
   },
 ];
 
 export const certifications = [
-  { name: "Certified Scrum Product Owner (CSPO)", issuer: "Scrum Alliance", year: "2021" },
-  { name: "Google Analytics Certification", issuer: "Google", year: "2020" },
+  { name: "TODO: Add your certifications here", issuer: "TODO: Issuer", year: "TODO" },
 ];
