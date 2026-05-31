@@ -10,7 +10,7 @@ export default function Hero() {
           <div>
             <div className="flex items-center gap-4 mb-6">
               <Image
-                src="/avatar.jpg"
+                src="/1740987299971.jpg"
                 alt={profile.name}
                 width={64}
                 height={64}
@@ -94,4 +94,3 @@ export default function Hero() {
     </section>
   );
 }
-
