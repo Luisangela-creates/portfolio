@@ -1,4 +1,5 @@
 import { ArrowDown, ExternalLink, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
 import { profile } from "@/lib/data";
 
 export default function Hero() {
@@ -7,9 +8,18 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-block text-sm font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950 px-3 py-1 rounded-full mb-6">
-              {profile.title}
-            </span>
+            <div className="flex items-center gap-4 mb-6">
+              <Image
+                src="/avatar.jpg"
+                alt={profile.name}
+                width={64}
+                height={64}
+                className="rounded-full object-cover w-16 h-16 ring-2 ring-blue-100"
+              />
+              <span className="inline-block text-sm font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950 px-3 py-1 rounded-full">
+                {profile.title}
+              </span>
+            </div>
 
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white leading-tight mb-6 text-balance">
               {profile.name}
@@ -84,3 +94,4 @@ export default function Hero() {
     </section>
   );
 }
+
