@@ -11,8 +11,15 @@ const description = "Continue beyond launch with Luisangela Marcano. Explore mon
 export const metadata: Metadata = {
   title,
   description,
-  openGraph: { title, description, type: "website" },
-  twitter: { card: "summary", title, description },
+  openGraph: {
+    title,
+    description,
+    type: "website",
+    siteName: profile.name,
+    url: "/consult",
+    locale: "en_US",
+  },
+  twitter: { card: "summary_large_image", title, description },
 };
 
 const packages = [

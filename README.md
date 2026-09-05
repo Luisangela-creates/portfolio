@@ -22,6 +22,29 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
+### Consulting page link previews
+
+`/consult` includes an Open Graph image and a large-image Twitter card. The
+1200 × 630 PNG is generated at build time by `app/consult/opengraph-image.tsx`,
+including its dimensions, content type, and descriptive alt text in the metadata.
+
+On Netlify, image URLs use `DEPLOY_PRIME_URL` (or `URL`). For another host, set
+`NEXT_PUBLIC_SITE_URL` to the public HTTPS origin before building. It overrides
+the automatic host value; local development falls back to `http://localhost:3000`.
+Use a preview-specific value when testing a preview deployment.
+
+To verify a deployment, inspect the initial HTML for `/consult` for `og:image`,
+`og:image:alt`, and `twitter:card=summary_large_image`. Fetch the exact
+`og:image` and `twitter:image` URLs from that HTML without authentication and
+check that both return a 1200 × 630 PNG. The generated image route is
+`/consult/opengraph-image`.
+
+Run the HTTP checks against a live site with:
+
+```bash
+node scripts/check-consult-metadata.mjs https://your-site.example
+```
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.

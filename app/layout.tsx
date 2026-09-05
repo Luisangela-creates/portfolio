@@ -13,6 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ||
+      process.env.DEPLOY_PRIME_URL ||
+      process.env.URL ||
+      "http://localhost:3000",
+  ),
   title: "Luisangela Marcano — Product Manager",
   description: "Creative Digital Strategist and Learning Experience Designer bringing storytelling and user-centered design thinking to Product Management.",
 };
